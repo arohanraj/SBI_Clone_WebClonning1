@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(body_bg.jpg);
+}
+.container{
+    width: 85%;
+    height: 1050px;
+    margin: 0% 7.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.logo{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: relative;
+}
+.llogo{
+    left: 25px;
+    top: 10px;
+    position:relative;
+    float:left;
+}
+.rlogo{
+    top: 5px;
+    right: 80px;
+    position:relative;
+    float:right;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(3, 3, 66);
+    position: relative;
+}
+/* .menu ul{ list-style-type: none;} */
+.menu li{display: inline-block;left: 0%; font-size: 14px;color: white; padding: 2px; border-right: 1px solid rgb(35, 161, 140);}
+
+.description{
+    margin: 5px;
+    border: 1px solid rgb(204, 190, 190);
+    width: auto;
+    height: 60px;
+    color: blue;
+    font-size: 13px;
+    background-color: white;
+    position:relative;
+}
+.description p{padding: 3px;}
+
+.sub_container{
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+.personal{
+    margin: 5px;
+    border: 1px solid rgb(204, 190, 190);
+    width: 48.9%;
+    height: 270px;
+    bottom: 5px;
+    background-color: ghostwhite;
+    position: relative;
+    float:left;
+}
+#buttonColor{
+    background-color: rgb(17, 17, 82);
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    font-size: 13px;
+}
+.personal ul{padding: 0px;}
+.personal li{display: inline-block;}
+#pInfo{
+    padding :3px;
+    font-size: 13px;
+}
+.corporate{
+    margin: 5px;
+    border: 1px solid rgb(204, 190, 190);
+    width: 48.9%;
+    height: 270px;
+    bottom: 5px;
+    background-color: ghostwhite;
+    position: relative;
+    float:right;
+}
+.corporate p{font-size: 13px;}
+.info{
+    font-size: 13px;
+    width: 100%;
+    height: 30px;
+    color: rgb(231, 22, 22);
+    background-color: #d2e0eb;
+    position: relative;
+}
+.links{
+    width: 100%;
+    height: 240px;
+    font-size: 12px;
+    color: #165b91;
+    background-color:ghostwhite;
+    position: relative;
+}
+.links table{
+    padding: 0px;
+    padding-left: 30px;
+}
+.lee{
+    border: 1px solid #165b91;
+    /* border-color: #165b91; */
+    padding: 8px 25px;
+    color: #589fd6;
+}
+.imageSlider{
+    width: 100%;
+    height: 275px;
+    background-color:rgb(4, 61, 61);
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 25px;
+    font-size: 11px;
+    color: white;
+    background-color: rgb(20, 20, 116);
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer p{display: inline-block;padding: 2px;}
